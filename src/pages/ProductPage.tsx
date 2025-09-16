@@ -1,9 +1,10 @@
-function ProductPage() {
+import ProductList from "../components/ProductList";
+
+export default function ProductPage() {
   return (
     <div>
-      ProductPage
+      <h2>Products</h2>
+      <ProductList />
     </div>
   );
 }
-
-export default ProductPage;
